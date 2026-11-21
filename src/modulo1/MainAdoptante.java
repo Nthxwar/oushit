@@ -1,12 +1,12 @@
 package modulo1;
 
-import OIOIOI.GestionAdoptantes;
+import modulo1.GestionAdoptante;
 
 public class MainAdoptante {
 
     public static void main(String[] args) {
 
-        GestionAdoptantes gestion = new GestionAdoptantes();
+        GestionAdoptante gestion = new GestionAdoptante();
 
         gestion.mostrarMenu();
     }
